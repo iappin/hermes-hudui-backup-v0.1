@@ -46,7 +46,3 @@ CLAUDE.md
 # Build artifacts
 backend/static/assets/
 backend/static/index.html
-
-# Local backup/personal machine artifacts
-frontend/.npm-cache/
-launchd/
