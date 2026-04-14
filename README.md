@@ -1,17 +1,22 @@
-# ☤ Hermes HUD — Web UI
+# Hermes HUDUI 中文备份版 v0.1
 
-A browser-based consciousness monitor for [Hermes](https://github.com/nousresearch/hermes-agent), the AI agent with persistent memory.
+一个给 [Hermes](https://github.com/nousresearch/hermes-agent) 用的浏览器仪表盘/Web UI，用来查看 agent 的记忆、技能、会话、项目、健康状态与 token 成本。
 
-Same data, same soul, same dashboard that made the [TUI version](https://github.com/joeynyc/hermes-hud) popular — now in your browser.
+这是 iappin 基于上游项目 [joeynyc/hermes-hudui](https://github.com/joeynyc/hermes-hudui) 整理发布的中文备份版，基线接近 v0.1 阶段，并包含我本地当时的中文化与定制修改。
 
-
-
-> 说明：这是 iappin 基于原项目 [joeynyc/hermes-hudui](https://github.com/joeynyc/hermes-hudui) 整理发布的个人备份/分享版，基线接近 v0.1 时代，并包含我本地当时的中文化与定制修改。
+> 项目定位
 >
 > - 用途：个人备份、公开分享、后续自行继续迭代
 > - 上游来源：`joeynyc/hermes-hudui`
+> - 当前仓库：`iappin/hermes-hudui-backup-v0.1`
 > - 许可证：继续保留原项目 MIT License
 > - 说明：这不是上游官方发布版，而是我的本地快照备份版
+
+## 这个版本适合谁
+
+- 想先体验较早期 Hermes HUDUI 版本的人
+- 想要一个可公开访问的中文备份仓库的人
+- 想在此基础上继续自己改 UI/汉化/功能的人
 
 ![Token Costs](assets/dashboard-costs.png)
 
@@ -45,8 +50,8 @@ The HUD updates instantly when your agent's data changes. No manual refresh need
 ## Quick Start
 
 ```bash
-git clone https://github.com/joeynyc/hermes-hudui.git
-cd hermes-hudui
+git clone https://github.com/iappin/hermes-hudui-backup-v0.1.git
+cd hermes-hudui-backup-v0.1
 python3.11 -m venv venv
 source venv/bin/activate
 ./install.sh
