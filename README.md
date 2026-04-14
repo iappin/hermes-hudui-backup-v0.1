@@ -76,7 +76,7 @@ hermes-hudui
 - Node.js 18+（用于构建前端）
 - 本机已经有一个正在使用中的 Hermes，并且 `~/.hermes/` 下已有数据
 
-不需要额外数据库或额外服务，这个 Web UI 会直接读取 agent 的数据目录。
+不需要额外数据库或额外服务，这个界面程序会直接读取 agent 的数据目录。
 
 ## 手动安装
 
@@ -162,7 +162,7 @@ FastAPI Backend (Python)
 
 这个项目可以理解为 [hermes-hud](https://github.com/joeynyc/hermes-hud) 的浏览器版搭档。两者都会独立读取同一个 `~/.hermes/` 数据目录，所以你可以只用其中一个，也可以两个同时开着。
 
-Web UI 是完全独立的，不依赖 TUI 包本体。它还补充了一些 TUI 没有的能力，比如：
+这个浏览器版面板是完全独立的，不依赖 TUI 包本体。它还补充了一些 TUI 没有的能力，比如：
 
 - 独立的 Memory、Skills、Sessions 标签页
 - 按模型统计 token 成本
